@@ -1,6 +1,22 @@
 {
   "release-type": "node",
-  "packages": {
-    ".": {}
-  }
+  "changelog-type": "pr",
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "✨ Novidades"
+    },
+    {
+      "type": "fix",
+      "section": "🐛 Correções"
+    },
+    {
+      "type": "docs",
+      "section": "📝 Atualizações na documentação"
+    },
+    {
+      "type": "chore",
+      "hidden": true
+    }
+  ]
 }
